@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+   font-family: 'Metropolise', sans-serif;
+   box-sizing: border-box;
+   padding:0;
+   margin:0
+}
+
+
+/* Regular */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Extra Bold */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+*,body{
+   font-family: 'Metropolise', sans-serif;
+   box-sizing: border-box;
+   padding:0;
+   margin:0
+}
+
+ion-icon {
+  color: #000;
+}
+
+.txt{
+  font-family: Metropolis;
+  font-style: normal;
+}
+.txt1{
+  font-size: 20px;
+  font-family: Metropolis;
+  font-style: normal;
+}
+.bee{
+  background-color: #FFF;
+  z-index: 5;
+}
+
+
+
+
+
+
+.btn-primary {
+    background: #05284C;
+    height: 2.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 1.5rem;
+    color: white; /* Add text color */
+    display: inline-flex; /* Added to adjust padding and text alignment */
+    align-items: center; /* Align text vertically */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.btn-primary:hover {
+    background-color: #ED3237!important;
+}
+
+.btn-secondary {
+    background:#ED3237;
+    height: 2.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 1.5rem;
+    color:white;
+}
+
+.btn-secondary:hover {
+     background-color:#05284C!important;
+}
+
+.cdn-secondary {
+  background:#ED3237;
+  height: 2.8rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 0rem;
+  color:white;
+}
+
+.cdn-secondary:hover {
+   background-color:#05284C!important;
+}
+
+
+
+.gradient_1{
+    background: linear-gradient(180deg, #FCD2D3 0%, rgba(255, 234, 234, 0.00) 100%);
+}
+
+.gradient_2{
+    background:linear-gradient(168deg, #06417F 0%, #05284C 100%);
+}
+
+.gradient_3{
+    background: linear-gradient(0deg, #EDF6FF 0%, rgba(237, 246, 255, 0.00) 100%);
+}
+
+.form-control{
+border-radius: 8.726px;
+border: 1.091px solid var(--gray-300, #D0D5DD);
+background: var(--white, #FFF);
+box-shadow: 0px 1.090712070465088px 2.181424140930176px 0px rgba(16, 24, 40, 0.05);
+padding: 13.089px 17.451px!important;
+width: 100%;
+}
+
+
+.speakers:hover .overlay{
+    transform: none;
+}
+
+
+.grid-layout {
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(114px,150px);
+  grid-gap: 10px;
+}
+
+.grid-layout div{
+
+    max-width: 246px;
+
+}
+
+.grid-layout div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row:1/1;
+    
+}
+
+.grid-layout div:nth-child(2) {
+     grid-column: 2/3;
+     grid-row:1/3;
+   
+    
+}
+.grid-layout div:nth-child(3) {
+     grid-column: 1/2;
+     grid-row:2/4;
+    
+    
+}
+.grid-layout div:nth-child(4) {
+     grid-column: 2/3;
+     grid-row:3/5;
+   
+    
+}
+.grid-layout div:nth-child(5) {
+     grid-column: 1/2;
+     grid-row:4/4;
+   
+    
+}
+
+
+
+
+.join-mailing-button:hover{
+    
+   
+        background-color: #05284C;
+        
+     
+}
+ 
+.join-mailing-button:hover svg path {
+        stroke: #ED3237;
+}
+
+.zf-tempContDiv input[type="text"], .zf-tempContDiv textarea, .zf-tempContDiv .zf-pdfTextArea {
+	padding:5px;
+}
+
+.zf-tempContDiv input[type="text"]:hover,  .zf-tempContDiv textarea:hover{	
+	border:1px solid rgba(157, 157, 157, 0.75) !important;	
+	}	
+.zf-tempContDiv input[type="text"]:focus, .zf-tempContDiv textarea:focus{	
+	border:1px solid rgba(121, 187, 238, 0.75) !important;	
+	-webkit-box-shadow:0 0 5px rgba(82, 168, 236, 0.5) !important;	
+	-moz-box-shadow:0 0 5px rgba(82, 168, 236, 0.5) !important;	
+	box-shadow:0 0 5px rgba(82, 168, 236, 0.5) !important;	
+	}
+	
+.zf-tempContDiv textarea {
+	height:75px;
+}
+
+
+.zf-tempFrmWrapper {
+	padding:10px 15px;
+	margin:1px 0;
+}
+
+.zf-tempFrmWrapper .zf-tempContDiv {
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" style="scrollbar-gutter: stable">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Partner Plus Connect | Finglow Travels </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300;1,400;1,500&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Magra:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="css/form.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./main.css" />
+  <script src="js/validation.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWBF7PE397"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JWBF7PE397');
+</script>
+</head>
+
+<body class="font-poppins=font-inter antialiased bg-white text-gray-900">
+  <div class="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
+    <nav class="p-5 z-[5] fixed  w-full  " style="border-bottom: 1px solid #EBEBF4; background: rgba(255, 255, 255, 0.80); backdrop-filter: blur(12px);">
+      <div class="md:flex md:items-center md:justify-between ">
+        <div class="flex justify-between items-center ">
+          <span class="lg:pl-[140px]">
+            <img class="h-10 inline cursor-pointer" src="images/logo_dark.png">
+          </span>
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+    
+        <ul class=" md:flex md:items-center  md:z-auto md:static absolute w-full left-0 md:w-auto
+         md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-[17px] text-[#05284C] hover:text-cyan-500 duration-500">Home</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-[17px] text-[#05284C] hover:text-cyan-500 duration-500">Events</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-[17px] text-[#05284C] hover:text-cyan-500 duration-500">Benefits</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-[17px] text-[#05284C] hover:text-cyan-500 duration-500">Contact</a>
+          </li>
+          <button class="btn-primary h-10 py-3 w-fit" onclick="window.location.href='#register-now';">
+            Register Now
+          </button>
+        </ul>
+
+      </div>
+    </nav>
+ 
+    <section class="flex bg-white min-h-[400px]  px-4">
+      <div class="flex flex-col max-w-screen-lg mx-auto w-full">
+        <div class="flex w-full flex-col md:flex-row md:justify-between h-full">
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="flex flex-col justify-between py-8  ">
+            <!---<img class="w-[11rem] mb-6" src="./images/logo_dark.png" />-->
+            <div class="flex flex-col space-y-4 pt-28">
+              <div class="pb-9">
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="172" height="24" viewBox="0 0 172 24" fill="none">
+                    <path d="M6.13372 14.673V22.9757H0.811523V0.622437H9.62181C11.5869 0.622437 13.0881 0.835325 14.1252 1.2611C15.1733 1.67596 16.1067 2.4238 16.9255 3.50461C17.7443 4.58543 18.1537 5.91188 18.1537 7.48398C18.1537 8.58663 17.9354 9.66199 17.4987 10.7101C17.062 11.7581 16.4451 12.5824 15.6482 13.1828C14.8512 13.7833 14.0761 14.1818 13.3228 14.3783C12.5804 14.5748 11.4123 14.673 9.81832 14.673H6.13372ZM5.95359 10.6118H9.3598C10.659 10.6118 11.5706 10.3116 12.0946 9.71112C12.6186 9.11066 12.8806 8.42287 12.8806 7.64774C12.8806 6.7416 12.5859 6.02106 11.9963 5.48611C11.4177 4.95116 10.5334 4.68368 9.34342 4.68368H5.95359V10.6118Z" fill="#05284C"/>
+                    <path d="M35.021 22.9757H30.2883C30.1355 22.3206 30.0591 21.4582 30.0591 20.3883C29.2293 21.5673 28.3996 22.3534 27.5699 22.7464C26.7511 23.1285 25.8177 23.3196 24.7696 23.3196C23.2194 23.3196 21.9639 22.8993 21.0031 22.0586C20.0533 21.218 19.5784 20.088 19.5784 18.6688C19.5784 17.6316 19.8568 16.6764 20.4136 15.803C20.9704 14.9296 21.8656 14.2473 23.0993 13.756C24.3329 13.2538 26.5819 12.8826 29.8462 12.6424V11.6926C29.8462 10.0878 29.0438 9.28534 27.4389 9.28534C25.7249 9.28534 24.7696 10.0878 24.5731 11.6926L20.0697 11.2668C20.3645 9.38906 21.2542 8.05714 22.739 7.27109C24.2237 6.48504 25.905 6.09202 27.7828 6.09202C28.9073 6.09202 29.9663 6.22303 30.9597 6.48504C31.9532 6.74706 32.7283 7.14008 33.2851 7.66412C33.8419 8.18815 34.2186 8.74493 34.4151 9.33447C34.6116 9.91309 34.7098 10.9284 34.7098 12.3804V19.8806C34.7098 21.3217 34.8136 22.3534 35.021 22.9757ZM29.8462 15.0497C26.429 15.3881 24.7205 16.4198 24.7205 18.1448C24.7205 18.7234 24.9006 19.2256 25.2609 19.6513C25.6212 20.0662 26.1343 20.2736 26.8002 20.2736C27.6627 20.2736 28.3833 19.9188 28.9619 19.2092C29.5514 18.4887 29.8462 17.6043 29.8462 16.5563V15.0497Z" fill="#05284C"/>
+                    <path d="M43.4874 22.9757H38.7547V6.43592H43.2254V9.5146C43.9132 7.22196 45.1031 6.07564 46.7953 6.07564C47.0355 6.07564 47.3303 6.09202 47.6796 6.12477V10.9393C46.6862 10.9393 45.911 11.0922 45.3542 11.3978C44.8084 11.7035 44.3608 12.2549 44.0114 13.0518C43.6621 13.8379 43.4874 14.9023 43.4874 16.2451V22.9757Z" fill="#05284C"/>
+                    <path d="M56.5882 10.2351V17.2277C56.5882 18.1011 56.7192 18.6852 56.9812 18.9799C57.2432 19.2747 57.8601 19.4221 58.8317 19.4221C59.2793 19.4221 59.7979 19.4002 60.3874 19.3566V22.9757C58.9682 23.2159 57.9474 23.3359 57.3251 23.3359C55.2945 23.3359 53.8534 22.9484 53.0018 22.1733C52.1503 21.3872 51.7245 19.9734 51.7245 17.9319V10.2351H49.1044V6.43592H52.0029L52.3959 1.55587L56.5882 1.22835V6.43592H60.1582V10.2351H56.5882Z" fill="#05284C"/>
+                    <path d="M77.2711 22.9757H72.391V13.6905C72.391 12.566 72.3474 11.7963 72.26 11.3815C72.1727 10.9666 71.9598 10.6173 71.6214 10.3334C71.2829 10.0386 70.8571 9.89125 70.344 9.89125C68.63 9.89125 67.773 11.1577 67.773 13.6905V22.9757H62.8929V6.43592H67.4291V9.23621C68.1824 7.9043 68.9248 7.04729 69.6562 6.66518C70.3877 6.28307 71.1792 6.09202 72.0308 6.09202C73.6029 6.09202 74.8693 6.5178 75.83 7.36935C76.7907 8.20998 77.2711 9.86942 77.2711 12.3477V22.9757Z" fill="#05284C"/>
+                    <path d="M96.1526 15.5246H85.5082C85.4973 15.8194 85.4918 16.0759 85.4918 16.2943C85.4918 17.4733 85.803 18.3631 86.4253 18.9636C87.0585 19.564 87.8118 19.8642 88.6852 19.8642C90.3118 19.8642 91.2889 18.9963 91.6164 17.2605L96.038 17.588C94.8043 21.409 92.2988 23.3196 88.5214 23.3196C86.8729 23.3196 85.47 22.9921 84.3128 22.337C83.1664 21.6711 82.2166 20.7049 81.4633 19.4385C80.721 18.1721 80.3498 16.6545 80.3498 14.8859C80.3498 12.2549 81.0976 10.1314 82.5933 8.51567C84.0999 6.8999 86.0322 6.09202 88.3904 6.09202C90.5193 6.09202 92.3425 6.84532 93.86 8.35191C95.3884 9.84758 96.1526 12.2385 96.1526 15.5246ZM85.4918 12.6915H91.3708C91.218 10.4207 90.2845 9.28534 88.5705 9.28534C86.7364 9.28534 85.7102 10.4207 85.4918 12.6915Z" fill="#05284C"/>
+                    <path d="M103.98 22.9757H99.2477V6.43592H103.718V9.5146C104.406 7.22196 105.596 6.07564 107.288 6.07564C107.528 6.07564 107.823 6.09202 108.173 6.12477V10.9393C107.179 10.9393 106.404 11.0922 105.847 11.3978C105.301 11.7035 104.854 12.2549 104.504 13.0518C104.155 13.8379 103.98 14.9023 103.98 16.2451V22.9757Z" fill="#05284C"/>
+                    <path d="M116.442 14.673V22.9757H111.12V0.622437H119.931C121.896 0.622437 123.397 0.835325 124.434 1.2611C125.482 1.67596 126.415 2.4238 127.234 3.50461C128.053 4.58543 128.462 5.91188 128.462 7.48398C128.462 8.58663 128.244 9.66199 127.807 10.7101C127.371 11.7581 126.754 12.5824 125.957 13.1828C125.16 13.7833 124.385 14.1818 123.632 14.3783C122.889 14.5748 121.721 14.673 120.127 14.673H116.442ZM116.262 10.6118H119.669C120.968 10.6118 121.879 10.3116 122.403 9.71112C122.927 9.11066 123.189 8.42287 123.189 7.64774C123.189 6.7416 122.895 6.02106 122.305 5.48611C121.726 4.95116 120.842 4.68368 119.652 4.68368H116.262V10.6118Z" fill="#05284C"/>
+                    <path d="M131.148 22.9757V0.622437H136.028V22.9757H131.148Z" fill="#05284C"/>
+                    <path d="M154.189 6.43592V22.9757H149.669V20.159C148.818 22.2661 147.191 23.3196 144.789 23.3196C143.545 23.3196 142.589 23.0903 141.924 22.6318C141.258 22.1623 140.777 21.5291 140.482 20.7322C140.199 19.9243 140.057 18.7616 140.057 17.2441V6.43592H144.789V17.2441C144.789 18.7288 145.401 19.4712 146.623 19.4712C147.246 19.4712 147.786 19.2965 148.245 18.9472C148.703 18.5869 148.993 18.2048 149.113 17.8009C149.244 17.3969 149.309 16.7037 149.309 15.7211V6.43592H154.189Z" fill="#05284C"/>
+                    <path d="M170.614 10.4317L167.061 11.3815C166.646 9.88579 165.57 9.13796 163.835 9.13796C162.197 9.13796 161.378 9.6347 161.378 10.6282C161.378 11.0212 161.526 11.3378 161.82 11.578C162.126 11.8072 162.912 12.0038 164.179 12.1675C166.067 12.4186 167.465 12.7079 168.371 13.0354C169.277 13.363 169.992 13.9143 170.516 14.6894C171.051 15.4646 171.318 16.4198 171.318 17.5552C171.318 19.2583 170.669 20.6448 169.37 21.7147C168.081 22.7846 166.275 23.3196 163.949 23.3196C159.735 23.3196 157.219 21.6874 156.4 18.4231L160.51 17.8172C160.849 19.302 162.071 20.0444 164.179 20.0444C164.986 20.0444 165.669 19.9024 166.226 19.6186C166.782 19.3238 167.061 18.9308 167.061 18.4395C167.061 17.6753 166.444 17.2222 165.21 17.0803C161.869 16.6655 159.67 16.0268 158.611 15.1643C157.563 14.2909 157.039 13.0791 157.039 11.5289C157.039 9.95676 157.65 8.65759 158.873 7.63136C160.095 6.60514 161.809 6.09202 164.015 6.09202C165.762 6.09202 167.159 6.43592 168.207 7.12371C169.255 7.8115 170.057 8.91415 170.614 10.4317Z" fill="#05284C"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="117" height="39" viewBox="0 0 117 39" fill="none">
+                    <path d="M9.38551 0H105.989C111.531 0 115.616 5.18134 114.323 10.5708L107.713 38.1114H0.23877L9.38551 0Z" fill="#ED3237"/>
+                    <path d="M24.4376 27.8427C21.3297 27.8427 19.0603 27.0378 17.6293 25.428C16.1984 23.7958 15.4829 21.7723 15.4829 19.3576C15.4829 18.6421 15.5612 17.8372 15.7177 16.9428C16.1201 14.7293 16.9586 12.8065 18.233 11.1743C19.5075 9.51975 21.0279 8.26766 22.7942 7.41803C24.5829 6.54604 26.4275 6.11005 28.328 6.11005C29.2223 6.11005 30.139 6.21066 31.0781 6.41189C32.0395 6.59076 32.7885 6.81435 33.3252 7.08265C33.4593 7.17208 33.5376 7.26152 33.5599 7.35095C33.6046 7.44039 33.6158 7.60808 33.5935 7.85402L33.0568 12.3481C33.0568 12.4152 33.001 12.4487 32.8892 12.4487C32.7774 12.4487 32.7103 12.4152 32.6879 12.3481C32.3078 10.6712 31.6147 9.36324 30.6086 8.42417C29.6248 7.48511 28.4062 7.01557 26.9529 7.01557C25.0077 7.01557 23.3644 7.79813 22.0228 9.36324C20.7037 10.9283 19.854 13.086 19.4739 15.8361C19.3398 16.7751 19.2727 17.6919 19.2727 18.5862C19.2727 20.2184 19.4851 21.6829 19.9099 22.9797C20.3347 24.2765 20.9496 25.305 21.7545 26.0652C22.5818 26.803 23.5432 27.1719 24.6388 27.1719C25.7567 27.1719 26.897 26.7583 28.0597 25.931C29.2223 25.1038 30.4521 23.8181 31.7489 22.0742C31.7712 22.0294 31.8159 22.0071 31.883 22.0071C31.9501 22.0071 32.006 22.0294 32.0507 22.0742C32.1178 22.0965 32.1401 22.1301 32.1178 22.1748L31.2123 26.0317C31.1452 26.3 31.0781 26.49 31.011 26.6018C30.944 26.6912 30.8098 26.7583 30.6086 26.803C28.5963 27.4961 26.5393 27.8427 24.4376 27.8427Z" fill="white"/>
+                    <path d="M37.715 27.9098C36.2393 27.9098 35.1102 27.4402 34.3276 26.5012C33.5674 25.5398 33.1873 24.2989 33.1873 22.7785C33.1873 22.1077 33.2432 21.504 33.355 20.9674C33.601 19.6259 34.0817 18.4297 34.7972 17.3788C35.535 16.328 36.4182 15.5119 37.4467 14.9306C38.4752 14.3492 39.5819 14.0586 40.7669 14.0586C42.265 14.0586 43.4053 14.5169 44.1878 15.4336C44.9927 16.328 45.3952 17.5353 45.3952 19.0557C45.3952 19.6594 45.3281 20.2966 45.194 20.9674C44.9033 22.4431 44.3667 23.7063 43.5841 24.7572C42.8239 25.7857 41.9184 26.5683 40.8675 27.1049C39.839 27.6415 38.7882 27.9098 37.715 27.9098ZM38.8553 27.0713C39.5707 27.0713 40.1856 26.6577 40.6999 25.8304C41.2365 25.0031 41.6277 23.874 41.8737 22.4431C42.0302 21.5711 42.1085 20.6879 42.1085 19.7936C42.1085 18.3403 41.8849 17.1552 41.4377 16.2385C41.0129 15.3218 40.4204 14.8635 39.6602 14.8635C38.9894 14.8635 38.3857 15.2548 37.8491 16.0373C37.3349 16.8199 36.9436 17.9825 36.6753 19.5253C36.5188 20.3973 36.4405 21.2804 36.4405 22.1748C36.4405 23.6281 36.6529 24.8131 37.0777 25.7298C37.5026 26.6242 38.0951 27.0713 38.8553 27.0713Z" fill="white"/>
+                    <path d="M77.6417 14.0585C78.4913 14.0585 79.1509 14.2038 79.6204 14.4945C80.0899 14.7852 80.3247 15.1876 80.3247 15.7019C80.3247 16.708 79.5757 17.6583 78.0777 18.5526C76.602 19.4246 74.8133 20.0618 72.7116 20.4643C72.6445 20.9562 72.6109 21.4369 72.6109 21.9064C72.6109 23.2479 72.8904 24.3323 73.4494 25.1596C74.0084 25.9645 74.8356 26.367 75.9312 26.367C76.4007 26.367 76.9038 26.2887 77.4404 26.1322C77.9994 25.9533 78.5025 25.685 78.9496 25.3273H78.9832C79.0503 25.3273 79.1062 25.3608 79.1509 25.4279C79.2179 25.495 79.2291 25.5509 79.1844 25.5956C78.3795 26.3782 77.5299 26.9483 76.6355 27.306C75.7412 27.6638 74.8468 27.8427 73.9525 27.8427C72.4097 27.8427 71.2471 27.3731 70.4645 26.4341C69.7043 25.495 69.3242 24.31 69.3242 22.879C69.3242 22.3871 69.3801 21.8393 69.4919 21.2357C69.7155 20.0283 70.2074 18.8768 70.9676 17.7812C71.7501 16.6857 72.7227 15.7913 73.8854 15.0982C75.048 14.4051 76.3001 14.0585 77.6417 14.0585ZM76.9374 16.5739C76.9597 16.4844 76.9709 16.3503 76.9709 16.1714C76.9709 15.7913 76.8703 15.5006 76.6691 15.2994C76.4902 15.0758 76.2331 14.964 75.8977 14.964C75.1822 14.964 74.545 15.4224 73.986 16.3391C73.4494 17.2558 73.0469 18.452 72.7786 19.9277C75.3499 19.2569 76.7361 18.139 76.9374 16.5739Z" fill="white"/>
+                    <path d="M84.9336 27.8762C83.3685 27.8762 82.217 27.3731 81.4791 26.367C80.7413 25.3385 80.3724 24.0529 80.3724 22.5101C80.3724 21.9511 80.4283 21.3363 80.5401 20.6655C80.7637 19.3687 81.2667 18.2172 82.0493 17.2111C82.8542 16.2049 83.7933 15.4336 84.8665 14.897C85.9397 14.338 87.0017 14.0585 88.0526 14.0585C88.8799 14.0585 89.6065 14.2374 90.2326 14.5951C90.881 14.9529 91.2052 15.4671 91.2052 16.1379C91.2052 16.6521 91.0487 17.0658 90.7356 17.3788C90.445 17.6694 90.0313 17.8148 89.4947 17.8148C88.9581 17.8148 88.5669 17.6806 88.3209 17.4123C88.075 17.1217 87.9073 16.7527 87.8178 16.3056C87.706 15.8807 87.5607 15.5565 87.3818 15.333C87.2253 15.1094 86.957 14.9976 86.5769 14.9976C85.9062 14.9976 85.3137 15.4112 84.7994 16.2385C84.2852 17.0434 83.9162 18.1278 83.6927 19.4917C83.5585 20.2295 83.4914 20.9338 83.4914 21.6046C83.4914 23.0132 83.7821 24.1423 84.3634 24.9919C84.9447 25.8192 85.8167 26.2328 86.9794 26.2328C87.4266 26.2328 87.9408 26.1322 88.5221 25.931C89.1035 25.7074 89.573 25.4615 89.9307 25.1931H89.9643C90.0313 25.1931 90.0984 25.2267 90.1655 25.2938C90.2326 25.3608 90.2438 25.4279 90.199 25.495C89.3941 26.2775 88.5333 26.87 87.6166 27.2725C86.6999 27.675 85.8056 27.8762 84.9336 27.8762Z" fill="white"/>
+                    <path d="M100.384 14.4945C100.54 14.4945 100.619 14.5951 100.619 14.7963C100.619 14.9752 100.484 15.2435 100.216 15.6013C99.9702 15.959 99.7355 16.1379 99.5119 16.1379C99.4448 16.1379 99.0759 16.082 98.4051 15.9702C97.7567 15.8584 97.0189 15.7801 96.1916 15.7354L94.783 23.7175C94.7383 24.0752 94.7159 24.3212 94.7159 24.4553C94.7159 24.9919 94.8501 25.3832 95.1184 25.6291C95.4091 25.8751 95.845 25.9981 96.4264 25.9981C97.276 25.9981 98.2151 25.5844 99.2436 24.7572H99.2771C99.3665 24.7572 99.4448 24.7907 99.5119 24.8578C99.579 24.9248 99.579 24.9919 99.5119 25.059C98.4834 26.0428 97.5667 26.7583 96.7618 27.2054C95.9792 27.6302 95.1966 27.8427 94.4141 27.8427C92.603 27.8427 91.6975 27.0266 91.6975 25.3944C91.6975 25.059 91.731 24.6901 91.7981 24.2876L93.1061 17.1776C93.1732 16.7975 93.2067 16.4844 93.2067 16.2385C93.2067 15.9031 93.1173 15.6795 92.9384 15.5677C92.7595 15.4559 92.4353 15.4 91.9658 15.4C91.8987 15.4 91.8652 15.3218 91.8652 15.1653C91.8652 14.964 91.8987 14.8634 91.9658 14.8634C93.7545 14.8634 95.1743 13.8796 96.2251 11.9121C96.2699 11.845 96.3481 11.8115 96.4599 11.8115C96.5717 11.8115 96.6723 11.8338 96.7618 11.8785C96.8512 11.9233 96.8847 11.968 96.8624 12.0127L96.3593 14.7628C96.9853 14.7405 97.522 14.7181 97.9691 14.6957C98.4163 14.651 98.7964 14.6175 99.1094 14.5951C99.6907 14.528 100.116 14.4945 100.384 14.4945Z" fill="white"/>
+                    <path d="M61.0387 12.1956C61.0701 12.1956 61.0858 12.2428 61.0858 12.3373C61.0858 12.4318 61.0701 12.4791 61.0387 12.4791C60.4419 12.4791 59.9236 12.6996 59.4839 13.1407C59.0598 13.5818 58.7771 14.1804 58.6358 14.9365L56.4685 27.1291C56.4685 27.1764 56.4214 27.2158 56.3271 27.2473C56.2486 27.2945 56.1622 27.3182 56.068 27.3182C55.9266 27.3182 55.8324 27.2709 55.7853 27.1764L49.0006 14.7475L47.3045 24.2228C47.2731 24.3803 47.2573 24.6008 47.2573 24.8844C47.2573 25.4515 47.3987 25.8925 47.6814 26.2076C47.9641 26.5227 48.3567 26.6802 48.8593 26.6802C48.8907 26.6802 48.9064 26.7274 48.9064 26.822C48.9064 26.9165 48.8907 26.9637 48.8593 26.9637C48.4509 26.9637 48.1368 26.9559 47.917 26.9401L46.5742 26.9165L45.302 26.9401C45.0665 26.9559 44.7209 26.9637 44.2655 26.9637C44.2184 26.9637 44.1948 26.9165 44.1948 26.822C44.1948 26.7274 44.2184 26.6802 44.2655 26.6802C44.8623 26.6802 45.3727 26.4596 45.7968 26.0186C46.2365 25.5775 46.5192 24.9789 46.6448 24.2228L48.5059 13.8732C48.2075 13.3534 47.917 12.9911 47.6343 12.7863C47.3516 12.5815 47.0453 12.4791 46.7155 12.4791C46.6684 12.4791 46.6448 12.4318 46.6448 12.3373C46.6448 12.2428 46.6684 12.1956 46.7155 12.1956L47.8227 12.2192C48.0583 12.2349 48.3724 12.2428 48.765 12.2428C49.142 12.2428 49.4639 12.2349 49.7309 12.2192C50.0136 12.2034 50.2021 12.1956 50.2963 12.1956C50.3905 12.1956 50.4612 12.2271 50.5083 12.2901C50.5554 12.3373 50.6104 12.4476 50.6732 12.6209C50.7046 12.6839 50.7518 12.7942 50.8146 12.9517C50.8931 13.0935 50.9795 13.251 51.0737 13.4243L56.4685 23.2776L57.9762 14.9365C58.0233 14.6687 58.0468 14.4324 58.0468 14.2277C58.0468 13.6763 57.9055 13.251 57.6228 12.9517C57.3401 12.6366 56.9475 12.4791 56.4449 12.4791C56.3978 12.4791 56.3742 12.4318 56.3742 12.3373C56.3742 12.2428 56.3978 12.1956 56.4449 12.1956L57.293 12.2192C57.8584 12.2507 58.3374 12.2664 58.73 12.2664C59.0127 12.2664 59.4368 12.2507 60.0021 12.2192L61.0387 12.1956Z" fill="#05284C"/>
+                    <path d="M71.5878 12.1955C71.619 12.1955 71.6346 12.2428 71.6346 12.3373C71.6346 12.4318 71.619 12.479 71.5878 12.479C70.9956 12.479 70.4813 12.6996 70.045 13.1407C69.6242 13.5817 69.3437 14.1803 69.2034 14.9365L67.0528 27.1291C67.0528 27.1763 67.006 27.2157 66.9125 27.2472C66.8346 27.2945 66.7489 27.3181 66.6554 27.3181C66.5151 27.3181 66.4216 27.2709 66.3748 27.1763L59.6424 14.7474L59.1514 13.8732C58.8553 13.3533 58.567 12.991 58.2865 12.7862C58.006 12.5814 57.7021 12.479 57.3748 12.479C57.3281 12.479 57.3047 12.4318 57.3047 12.3373C57.3047 12.2428 57.3281 12.1955 57.3748 12.1955L58.4735 12.2191C58.7073 12.2349 59.019 12.2428 59.4086 12.2428C59.7826 12.2428 60.1021 12.2349 60.367 12.2191C60.6476 12.2034 60.8346 12.1955 60.9281 12.1955C61.0216 12.1955 61.0917 12.227 61.1385 12.29C61.1852 12.3373 61.2398 12.4475 61.3021 12.6208C61.3333 12.6838 61.38 12.7941 61.4424 12.9516C61.5203 13.0934 61.606 13.2509 61.6995 13.4242L67.0528 23.2775L68.5489 14.9365C68.5956 14.6687 68.619 14.4324 68.619 14.2276C68.619 13.6763 68.4787 13.2509 68.1982 12.9516C67.9177 12.6366 67.5281 12.479 67.0294 12.479C66.9826 12.479 66.9592 12.4318 66.9592 12.3373C66.9592 12.2428 66.9826 12.1955 67.0294 12.1955L67.8709 12.2191C68.432 12.2506 68.9073 12.2664 69.2969 12.2664C69.5774 12.2664 69.9982 12.2506 70.5593 12.2191L71.5878 12.1955Z" fill="#05284C"/>
+                  </svg><br>
+                </div>
+                <img class="w-[291px] h-auto" src="./images/Supporting text.png  " alt="">
+                <!-- <p style="font-family: Cormorant;" class="block italic text-[#05284C]">A webinar series for travel agents</p> -->
+              </div>
+             <!----- <p class="text-[2.7rem] font-bold leading-[1.3] tracking-wide">
+                <span class="bg-[#EBA5A9] rounded-3xl px-3 text-white">Increase</span> Your <span class="bg-[#81A5C9] rounded-3xl px-3 text-white">Earning</span><br>
+                 Potential with Cutting-edge<br> Technologies
+              </p>--->
+              <p class="text-[50px] font-bold leading-[58.3px] tracking-[-1.66px]" style="color: var(--FT-blue, #05284C); width:500px;">
+                Welcome to PartnerPlus Connect
+              <p class="w-[509px] leading-[42.3px] tracking-[-0.94px] text-[31.34px] not-italic" style="color: var(--FT-blue, #05284C);">
+                The webinar series that empowers you with the knowledge and opportunities you need to thrive in the travel industry.
+              </p>
+              <!--<p class="w-[24rem]" style="font-size: 14px;">
+                It’s time to learn new best practices that will enhance your commission-generation skills, and elevate your travel business!
+              </p> -->
+              <button class="btn-primary h-10 py-3 w-fit" onclick="window.location.href='#register-now';">
+                Register Now
+              </button>
+            </div>
+
+            <div class="flex items-end gap-2">
+              <img src="./images/mailing.svg" alt="" />
+              <p class="text-primaryColor leading-5">
+                Join our <br />
+                mailing list
+              </p>
+              <button class="border rounded-full p-2 join-mailing-button relative">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.40979 11.6147L12.2637 0.760742M12.2637 0.760742V11.1805M12.2637 0.760742H1.84395"
+                    stroke="#7E93A8" stroke-width="1.08539" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 grid-auto-rows-minmax gap-4 md:max-w-[372px]" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <div class="pb-1 max-w-246 border border-t-0 border-secondaryColor rounded-b-[80px]">
+              <img class="w-full h-full" src="./images/grid-5.png" alt="" />
+            </div>
+
+            <div class="max-w-246 col-start-2 row-start-1 row-span-2">
+              <img class="w-full h-full" src="./images/grid-2.png" alt="" />
+            </div>
+
+            <div class="pb-1 max-w-246 col-start-1 row-start-2 row-span-2 relative top-[-49px] right-[40px] ">
+              <img class="w-[77.335px] h-auto" src="./images/icons/Component 11.png" alt="" />
+            </div>
+
+            <div class="max-w-246 col-start-1 row-start-2 row-span-2">
+              <img class="w-full h-full" src="./images/grid-1.png" alt="" />
+            </div>
+
+            <div class="max-w-246 col-start-2 row-start-3 row-span-2">
+              <img class="w-full h-full" src="./images/grid-3.png" alt="" />
+            </div>
+
+            <div class="max-w-246 col-start-1 row-start-4 relative top-[-48px] right-[39px] ">
+              <img class="w-[77.335px] h-auto" src="./images/icons/Component 11 (1).png" alt="" />
+            </div>
+
+            <div class="max-w-246 col-start-1 row-start-4">
+              <img class="w-full h-full" src="./images/grid-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- new dev -->
+    <section class="flex justify-center items-center bg-[#05396F]  ">
+      <div class="max-w-md md:max-w-2xl flex justify-center items-center ">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="text-center md:text-left md:flex items-center gap-[-21px] justify-center md:w-[738px] ">
+          <div class="p-8">
+            <div class=" tracking-wide  txt text-[#FBFBFB] text-[20px]  font-normal ">Our goal is simple</div>
+            <p class="txt md:w-[314px] lg:w-[442px] font-bold text-[#F0F0F0] sm:text-[30px] leading-[34.991px]">provide guidance, share insights, elevate travel businesses.</p>
+          </div>
+          
+          <div class="p-8 ">
+            <p class="mt-2 txt md:w-[382px] lg:w-[512px] font-normal  text-[#DEDEDE] sm:text-[20px] leading-[30.721px] pb-4">
+              The journey to success in the travel space can be filled with uncertainties and every day, travel agents face new complexities navigating this ever-evolving industry, PartnerPlus Connect was born out of the need to bridge this knowledge gap.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new dev ends -->
+
+    <section class="flex justify-center items-center  min-h-[400px] py-14 px-4" style="background: linear-gradient(179deg, #FCD2D3 -48.6%, rgba(255, 234, 234, 0.00) 64.3%);">
+      <div class="flex justify-center items-center flex-col max-w-screen-lg">
+        <p data-aos="fade-up" class="text-secondaryColor">TOPIC</p>
+
+        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+          class=" md:text-[51px] lg:w-[1005px] text-[#05284C] text-center font-bold leading-[1.1]">
+          Upgrade Your Travel Business with Advanced Pricing Techniques: Tactics for Diverse Markets
+        </p>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="flex gap-2 my-4 flex-col md:flex-row">
+          <div class="bg-neutral-200 flex items-center p-1 gap-2 rounded-xl">
+            <p class="bg-white p-1 font-bold px-2 rounded-xl">DATE</p>
+            <p class="text-primaryColor tracking-widest font-medium text-md">
+              29th February, 2024
+            </p>
+          </div>
+          <div class="bg-neutral-200 flex items-center p-1 gap-2 rounded-xl">
+            <p class="bg-white p-1 font-bold px-2 rounded-xl">TIME</p>
+            <p class="text-primaryColor tracking-widest font-medium text-md">
+              12:00 PM (WAT)
+            </p>
+          </div>
+          <div class="bg-neutral-200 flex items-center p-1 gap-2 rounded-xl px-2">
+            <svg width="30" height="30" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_111_1304)">
+                <rect x="2.81274" y="1" width="37" height="37" rx="18.5" fill="white" />
+                <path
+                  d="M8.59399 28.2412C8.59399 29.1611 9.34553 29.9062 10.2715 29.9062H10.2956C9.35546 29.9062 8.59399 29.1611 8.59399 28.2412Z"
+                  fill="#FBBC05" />
+                <path
+                  d="M23.0094 15.3375V19.6845L28.8701 14.9573V10.7587C28.8701 9.83883 28.1185 9.09375 27.1926 9.09375H14.4957L14.4844 15.3375H23.0094Z"
+                  fill="#FBBC05" />
+                <path
+                  d="M23.0095 24.0333H14.4703L14.4603 29.9066H27.1926C28.12 29.9066 28.8701 29.1615 28.8701 28.2416V24.4509L23.0095 19.6863V24.0333Z"
+                  fill="#34A853" />
+                <path d="M14.4957 9.09375L8.59399 15.3375H14.4858L14.4957 9.09375Z" fill="#EA4335" />
+                <path
+                  d="M8.59399 24.033V28.2412C8.59399 29.1611 9.35546 29.9062 10.2956 29.9062H14.4603L14.4702 24.033H8.59399Z"
+                  fill="#1967D2" />
+                <path d="M14.4858 15.3375H8.59399V24.0329H14.4702L14.4858 15.3375Z" fill="#4285F4" />
+                <path
+                  d="M34.0232 26.7611V12.47C33.6928 10.5733 31.6126 12.7475 31.6126 12.7475L28.8716 14.9577V24.4496L32.7952 27.6394C34.2118 27.8253 34.0232 26.7611 34.0232 26.7611Z"
+                  fill="#34A853" />
+                <path d="M23.0095 19.6845L28.8716 24.4505V14.9587L23.0095 19.6845Z" fill="#188038" />
+              </g>
+              <defs>
+                <filter id="filter0_d_111_1304" x="0.812744" y="0" width="41" height="41" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="1" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_111_1304" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_111_1304" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+
+            <p class="text-primaryColor tracking-widest font-medium text-md ">
+              Google Meet
+            </p>
+          </div>
+        </div>
+        <div class="grid gap-2 items-center my-4 text-center">
+          <p data-aos="fade-up" class="text-secondaryColor uppercase">In collaboration with</p>
+          <img class="w-64" src="./images/image 5.png" alt="" srcset="">
+        </div>
+        <button class="btn-primary text-white h-10 px-10 rounded-3xl"  onclick="window.location.href='#register-now';">
+          Register Now
+        </button>
+      </div>
+    </section>
+
+    <section class="flex justify-center gradient_2 min-h-[600px] py-16 px-4 relative">
+      <div class="flex justify-center items-center flex-col w-full max-w-screen-lg speakers">
+        <div class="flex-col flex items-center gap-4">
+          <p class="text-white pb-[70px] text-3xl font-bold">Meet the Speaker</p>
+          <!-- <p class="text-textPrimary md:text-[20px] second-line-text text-center">
+            Get ready to be inspired by our panel of seasoned experts, each with over 10 years in travel operations. Their insider insights will revolutionize your travel business, turning challenges into opportunities.
+          </p> -->
+        </div>
+        <div class="flex flex-col md:flex-row flex-wrap items-center justify-center  w-full ">
+         <div class="p-[0.6rem] flex-grow-0 flex-shrink-0 w-full md:w-[33.33%] ">
+          <img src="./images/businessman-standing-outside-office-building 2.png" alt="Card Image" class="w-full h-full object-cover mb-2" />
+         </div>
+          <div class="p-[0.6rem] text-white flex-grow-0 flex-shrink-0 w-full md:w-[33.33%] sub-section ">
+            <h4 class="font-semibold text-2xl">
+              Ezekiel Ikotun
+            </h4>
+            <p class="pb-[14px]"> 
+              <span>
+              Managing Director, Finchglow Travels
+              </span>
+            </p>
+            <p class="text-sm">
+              Currently the Managing Director, Finchglow Travels, Ezekiel Ikotun is a distinguished professional with over 15 years of experience in the travel industry. 
+              With a keen understanding of the complexities of travel operations, he has implemented strategies that enhance operational efficiency, customer satisfaction, and overall business performance. 
+            </p>
+          </div>
+      <img class="absolute bottom-0 right-0 w-[138px]" src="./images/pattern.png" />
+    </section>
+
+    <section class="flex items-center  min-h-[400px] py-16 px-4 miss-this" style="background: linear-gradient(2deg, #EDF6FF 1.39%, rgba(237, 246, 255, 0.00) 92.06%);">
+      <div class="flex items-center flex-col max-w-screen-lg mx-auto w-full">
+        <div class="space-y-6">
+          <p class="text-3xl font-bold leading-[1.1] text-center block  md:text-[30px] ">
+            Why You Shouldn't Miss This
+          </p>
+          <!--<p class="text-[#667085] font-medium leading-[1.1] text-center block second-line-text md:text-[20px]">
+            Whether you're a seasoned professional or just starting out, the PartnerPlus Connect Webinar Series is here to equip you with the knowledge and skills you need to excel. Here are some insightful discussions we’ll be covering in this series:
+          </p>--> 
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000"
+          class="grid grid-cols-1 md:grid-cols-2 w-full gap-y-5 gap-x-5 mt-12">
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/Group_3.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[14rem]">
+                Effortlessly Master Travel Operations
+              <p class="block text-[#667085] text-sm font-medium">
+                From itinerary planning to documentation, learn the tricks of streamlining your travel operations for
+                enhanced efficiency.
+              </p>
+            </div>
+          </div>
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/booking.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[11rem]">
+                Perfect Your Flight Booking Skills
+              </p>
+              <p class="block text-[#667085] text-sm font-medium">
+                Get expert guidance on optimizing flight bookings, securing the best deals, and ensuring seamless travel
+                experiences for your clients.
+              </p>
+            </div>
+          </div>
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/money.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[15rem]">
+                Multiply Your Revenue Streams
+              </p>
+              <p class="block text-[#667085] text-sm font-medium">
+                Discover innovative ways to expand your revenue streams, from affiliate partnerships to value-added
+                services.
+              </p>
+            </div>
+          </div>
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/network.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[15rem]">
+                Build a Strong Travel Network
+              </p>
+              <p class="block text-[#667085] text-sm font-medium">
+                Learn how to connect with fellow travel agents, suppliers, and industry influencers to create a robust
+                network that supports your growth.
+              </p>
+            </div>
+          </div>
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/hand.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[15rem]">
+                Learn Effective Client Engagement Strategies
+              </p>
+              <p class="block text-[#667085] text-sm font-medium">
+                Gain insights into building strong customer relationships, offering exceptional service, and nurturing
+                client loyalty.
+              </p>
+            </div>
+          </div>
+          <div class="flex p-8 bg-white space-x-5 items-start">
+            <img class="object-contain" src="./images/icons/harnes.png" alt srcset />
+            <div class="space-y-4">
+              <p class="block text-[#667085] font-bold max-w-[15rem]">
+                Discover the Right Digital Tools for Business
+              </p>
+              <p class="block text-[#667085] text-sm font-medium">
+                Explore the power of technology in transforming your travel business, from online marketing to automated
+                processes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000"
+          class="grid grid-cols-1 md:grid-cols-1 place-items-center w-full gap-y-5 gap-x-5 mt-12">
+          <div class=" flex justify-center md:w-[500px]">
+            <div class="flex p-8 bg-white space-x-5 items-center">
+              <img class="object-contain" src="./images/icons/compliance.png" alt srcset />
+              <div class="space-y-4">
+                <p class="block text-[#667085] font-bold max-w-[14rem]">
+                  Stay Ahead of Industry Regulations
+                </p>
+                <p class="block text-[#667085] text-sm font-medium">
+                  Stay informed about the legal aspects of travel agency operations, ensuring your business operates
+                  smoothly and ethically.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!----- dis where i worked on-->
+    <section class="flex justify-center  min-h-[600px] py-16 px-4 past-event" style="background: linear-gradient(7deg, #FCD2D3 -23.41%, rgba(255, 234, 234, 0.00) 97.73%);">
+      <div class=" w-full  md:w-[1198px] xl:w-[1298px]">      
+        <div class="md:flex md:flex-row md:justify-between md:relative    h-full">
+          <div class="md:absolute left-[10%] ">
+            <span class="text-[#05284C] font-bold">Catch Up on Previous Episodes!</span>
+            <img class="object-contain md:w-[583px] space-x-5 items-start" src="images/Frame 92.png" alt srcset />
+          </div>
+          <!----- Maiden Edition-->
+          <div class="md:absolute right-[4%] bottom-[25%] md:w-[578px]">
+            <div class="flex p-8 bg-white space-x-5 items-start ">
+              <div class="">
+                <p class="block text-[#e94b4b] font-medium max-w-[14rem] uppercase">
+                  VERSION 3.0
+                </p>
+                <p class="block text-[#667085] sm:w-[287px] font-700 font-bold ">
+                  Upgrade Your Travel Business with Advanced Pricing Techniques: Tactics for Diverse Markets
+                </p>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="flex gap-2 my-4 flex-col md:flex-row bg-white">
+                  <div class="bg-neutral-200 flex items-center  gap-2 rounded-xl " style="padding: 2.071px 5.177px 2.071px 2.589px;">
+                    <p class="bg-white font-bold px-2 rounded-xl">DATE</p>
+                    <p class="text-primaryColor tracking-widest font-medium  md:text-[11px]">
+                      30th November, 2023
+                    </p>
+                  </div>
+                  <div class="bg-neutral-200 flex items-center gap-2 rounded-xl" style="padding: 2.071px 5.177px 2.071px 2.589px;">
+                    <p class="bg-white font-bold px-2 rounded-xl">TIME</p>
+                    <p class="text-primaryColor tracking-widest font-medium md:text-[11px]">
+                      12:00 PM (WAT)
+                    </p>
+                  </div>
+                  <div class="bg-neutral-200 flex items-center gap-2 rounded-xl px-2" style="padding: 2.071px 5.177px 2.071px 2.589px;">
+                    <svg width="30" height="30" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_d_111_1304)">
+                        <rect x="2.81274" y="1" width="37" height="37" rx="18.5" fill="white" />
+                        <path
+                          d="M8.59399 28.2412C8.59399 29.1611 9.34553 29.9062 10.2715 29.9062H10.2956C9.35546 29.9062 8.59399 29.1611 8.59399 28.2412Z"
+                          fill="#FBBC05" />
+                        <path
+                          d="M23.0094 15.3375V19.6845L28.8701 14.9573V10.7587C28.8701 9.83883 28.1185 9.09375 27.1926 9.09375H14.4957L14.4844 15.3375H23.0094Z"
+                          fill="#FBBC05" />
+                        <path
+                          d="M23.0095 24.0333H14.4703L14.4603 29.9066H27.1926C28.12 29.9066 28.8701 29.1615 28.8701 28.2416V24.4509L23.0095 19.6863V24.0333Z"
+                          fill="#34A853" />
+                        <path d="M14.4957 9.09375L8.59399 15.3375H14.4858L14.4957 9.09375Z" fill="#EA4335" />
+                        <path
+                          d="M8.59399 24.033V28.2412C8.59399 29.1611 9.35546 29.9062 10.2956 29.9062H14.4603L14.4702 24.033H8.59399Z"
+                          fill="#1967D2" />
+                        <path d="M14.4858 15.3375H8.59399V24.0329H14.4702L14.4858 15.3375Z" fill="#4285F4" />
+                        <path
+                          d="M34.0232 26.7611V12.47C33.6928 10.5733 31.6126 12.7475 31.6126 12.7475L28.8716 14.9577V24.4496L32.7952 27.6394C34.2118 27.8253 34.0232 26.7611 34.0232 26.7611Z"
+                          fill="#34A853" />
+                        <path d="M23.0095 19.6845L28.8716 24.4505V14.9587L23.0095 19.6845Z" fill="#188038" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_d_111_1304" x="0.812744" y="0" width="41" height="41" filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                          <feOffset dy="1" />
+                          <feGaussianBlur stdDeviation="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0" />
+                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_111_1304" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_111_1304" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                    <p class="text-primaryColor tracking-widest font-medium md:text-[11px] ">
+                      Google Meet
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-2 items-center my-4">
+                  <p data-aos="fade-up" class="text-secondaryColor text-[11px]">SUPPORTED BY</p>
+                  <img class="w-[132px]"src="./images/amadeus-logo.png" alt="" srcset="">
+                </div>
+                </div>
+              </div>
+            <button class="cdn-secondary md:!w-45 flex items-center justify-center gap-2 " onclick="window.open('https:'//youtu.be/IdB4BlP-b1o?si=QC1_X5oVxCTKLjj0','_blank')">Play video<img class="w-3" src="images/icons/solar_play-outline.png" alt="play video" srcset=""></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="flex items-center min-h-[400px] py-16 px-2 md:px-4" id="register-now" style="background: var(--White, #FFF);">
+      <div class="flex items-center flex-col max-w-screen-lg mx-auto w-full">
+        
+        <div class="flex flex-col items-center pb-10 space-y-6 text-center">
+          <p data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            class="sm:text-[19px] md:text-[25px] lg:text-[30px] font-bold leading-[1.1] text-center block sm:w-[447px] md:w-[657px] lg:w-[800px] text-[#101828]">
+            Whether you're just starting your travel business or looking to expand your reach, you’re in the right place!
+          </p>
+          <!-- <p data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            class="text-[#667085] font-semibold leading-[1.1] text-center block text-lg">
+            this webinar is tailor-made for you.
+          </p> -->
+          <p data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            class="text-[#667085] font-medium text-center block text-[18.81px] lg:text-[26.81px] sm:w-[582px]">
+            Register now and unlock a world of possibilities for your travel
+            business.
+          </p>
+        </div>
+        <div class=" !max-w-[600px] w-full">
+          <form
+            action="https://forms.zohopublic.com/finchglowholdings1/form/WebinarRegistration/formperma/puGFfzNTD1EWsOihbWASkfmzMxcJRcjtwJ1MZ611BAY/htmlRecords/submit"
+            name="form" method="POST"
+            onSubmit="javascript:document.charset=&quot;UTF-8&quot;; return zf_ValidateAndSubmit();"
+            accept-charset="UTF-8" enctype="multipart/form-data" id="form">
+            <input type="hidden" name="zf_referrer_name"
+              value>
+            <input type="hidden" name="zf_redirect_url" value>
+            <input type="hidden" name="zc_gad" value>
+            <div class="zf-templateWrapper">
+             
+
+              <div class="zf-subContWrap zf-topAlign">
+                <ul>
+                  
+                  <li class="zf-tempFrmWrapper zf-name zf-namemedium">
+                    <div class="zf-tempContDiv zf-twoType">
+                      <div class="md:flex zf-nameWrapper gap-[45.726px] !w-full">
+                        <div>
+                        <label class="zf-labelName">First Name</label>
+                        <span> <input type="text" maxlength="255" name="Name_First"
+                            class="w-full md:!w-[262.3195px] form-control" fieldType="7" placeholder="First Name" /></span>
+                        </span></span>
+                        </div>
+                        <div>
+                          <label>Last Name</label>
+                        <span> <input class="w-full md:!w-[262.3195px]  form-control" type="text" maxlength="255" name="Name_Last"
+                            fieldType="7" placeholder="Last Name" />
+                        </span>
+                        </div>
+                        </span> </span>
+                        <div class="zf-clearBoth"></div>
+                      </div>
+                      <p id="Name_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+  
+                  <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">
+                      Email
+                    </label>
+                    <div class="zf-tempContDiv">
+                      <span> <input class="form-control !w-full" fieldType="9" type="text" maxlength="255" name="Email" checktype="c5" value
+                          placeholder="you@company.com" /></span>
+                      <p id="Email_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+
+                  <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">
+                      Phone Number
+                      <em class="zf-important"></em>
+                    </label>
+                    <div class="zf-tempContDiv zf-phonefld">
+                      <div class="zf-phwrapper !w-full">
+                        <span style="width: 100% !important;"> <input type="text"  compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20"
+                            checktype="c7" value phoneFormat="1" isCountryCodeEnabled="true" fieldType="11"
+                            id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="1"
+                            placeholder="+234 000-000-0000" 
+                            class="form-control"
+                            />
+                          </span>
+                        <div class="zf-clearBoth"></div>
+                      </div>
+                      <p id="PhoneNumber_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+
+                  <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">
+                      Location (State)
+                    </label>
+                    <div class="zf-tempContDiv">
+                      <select class="zf-form-sBox form-control !w-full" name="Dropdown" checktype="c1">
+                        <option selected="true" value="-Select-">Select an Option</option>
+                        <option value="Abia&#x20;State">Abia State</option>
+                        <option value="Adamawa&#x20;State">Adamawa State</option>
+                        <option value="Akwa&#x20;Ibom&#x20;State">Akwa Ibom State</option>
+                        <option value="Anambra&#x20;State">Anambra State</option>
+                        <option value="Bauchi&#x20;State">Bauchi State</option>
+                        <option value="Bayelsa&#x20;State">Bayelsa State</option>
+                        <option value="Benue&#x20;State">Benue State</option>
+                        <option value="Borno&#x20;State">Borno State</option>
+                        <option value="Cross&#x20;River&#x20;State">Cross River State</option>
+                        <option value="Delta&#x20;State">Delta State</option>
+                        <option value="Ebonyi&#x20;State">Ebonyi State</option>
+                        <option value="Ekiti&#x20;State">Ekiti State</option>
+                        <option value="Enugu&#x20;State">Enugu State</option>
+                        <option value="Gombe&#x20;State">Gombe State</option>
+                        <option value="Imo&#x20;State">Imo State</option>
+                        <option value="Jigawa&#x20;State">Jigawa State</option>
+                        <option value="Kaduna&#x20;State">Kaduna State</option>
+                        <option value="Kano&#x20;State">Kano State</option>
+                        <option value="Katsina&#x20;State">Katsina State</option>
+                        <option value="Kebbi&#x20;State">Kebbi State</option>
+                        <option value="Kogi&#x20;State">Kogi State</option>
+                        <option value="Kwara&#x20;State">Kwara State</option>
+                        <option value="Lagos&#x20;State">Lagos State</option>
+                        <option value="Nasarawa&#x20;State">Nasarawa State</option>
+                        <option value="Niger&#x20;State">Niger State</option>
+                        <option value="Ogun&#x20;State">Ogun State</option>
+                        <option value="Ondo&#x20;State">Ondo State</option>
+                        <option value="Osun&#x20;State">Osun State</option>
+                        <option value="Oyo&#x20;State">Oyo State</option>
+                        <option value="Plateau&#x20;State">Plateau State</option>
+                        <option value="Rivers&#x20;State">Rivers State</option>
+                        <option value="Sokoto&#x20;State">Sokoto State</option>
+                        <option value="Taraba&#x20;State">Taraba State</option>
+                        <option value="Yobe&#x20;State">Yobe State</option>
+                        <option value="Zamfara&#x20;State">Zamfara State</option>
+                        <option value="FCT,&#x20;Abuja">FCT, Abuja</option>
+                      </select>
+                      <p id="Dropdown_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+
+                  <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">
+                      Please select the category that best describes you
+                    </label>
+                    <div class="zf-tempContDiv">
+                      <select class="zf-form-sBox form-control !w-full" name="Dropdown1" checktype="c1">
+                        <option selected="true" value="-Select-">-Select-</option>
+                        <option value="A.&#x20;Travel&#x20;Agent">A. Travel Agent</option>
+                        <option value="B.&#x20;Corporate&#x20;Representative">B. Corporate Representative</option>
+                        <option value="C.&#x20;Independent&#x20;Traveler">C. Independent Traveler</option>
+                      </select>
+                      <p id="Dropdown1_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+
+                  <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">
+                      Do you have any specific questions you'd like us to address during the webinar?
+                    </label>
+                    <div class="zf-tempContDiv">
+                      <span> <textarea class="form-control !w-full" name="MultiLine" checktype="c1" maxlength="65535" placeholder></textarea> </span>
+                      <p id="MultiLine_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+
+                  <li class="zf-tempFrmWrapper zf-decesion ">
+                    <div class="zf-tempContDiv">
+                      <input type="checkbox" checktype="c1" id="DecisionBox" name="DecisionBox" />
+                      <label for="DecisionBox" class="zf-labelName">You agree to our friendly privacy policy.
+                      </label>
+                      <p id="DecisionBox_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    </div>
+                    <div class="zf-clearBoth"></div>
+                  </li>
+                </ul>
+              </div>
+              <ul>
+                <li class="zf-fmFooter"><button class="btn-secondary !w-full  flex items-center justify-center">Submit</button></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <!---worked here also-->
+    <section class="flex items-center justify-center py-16 px-4 md:h-[254px] sm:relative sm:flex-none">
+      <div class="flex flex-col md:flex-row md:absolute  bottom-[-66px]  bg-[#FAC2C3] sm:w-[73%] md:w-[63%] justify-between items-center">
+        <div class="flex flex-col-reverse justify-center p-8 sm:w-[423px]  space-x-5 items-start">
+          <div class="space-y-4 lg:w-[434.064px] ">
+            <label class="block text-[#05284C] md:max-w-[313px] font-bold text-[26px] font-[Metropolis] leading-[28.75px]">
+              Become our affiliate agent,
+               unlock a world of benefits.
+            </label>
+            <p class="block text-[#333A47] text-[16px] font-[Metropolis] font-semibold leading-[18.7px]">
+              Join our exclusive affiliate program and enjoy juicy commissions, unbeatable rates, personalized 
+              support, and a host of benefits designed to fuel your success as a travel agent.
+            </p>
+            <ul>
+              <button class="cdn-secondary flex items-center justify-center" style="margin-top: 20px" onclick="window.open('https:'//finchglowtravels.com/register/','_blank')">Sign up now</button>
+            </ul>
+          </div>
+        </div>
+        <div class="py-8 space-x-5 ">
+          <img class="object-contain smipx:h-[206px]  h-auto" src="images/handsome-young-businessman-suit 1.png" alt srcset />
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex items-center min-h-[400px] py-16 px-4" style="background: var(--Gray-800, #1D2939);">
+      <div class="sm:flex items-center flex-col mx-auto">
+        <div class="mt-2 lg:mt-10  md:gap-[29px] lg:gap-[193px] xl:gap-[300px] 2xl:gap-[616px] flex-wrap flex md:justify-center smipx:items-start ">
+          <!-- Card -->
+          <div class=" h-[auto] p-2  transform transition-all hover:-translate-y-2 duration-300  ">
+            <div>
+              <div data-aos="fade-up" data-aos-duration="3000" class="flex flex-col gap-3 ">
+                <img class="w-[11rem]" src="./images/logo_white.png" alt="" />
+                <p class="text-[#98A2B3] max-w-[380px]">
+                  Finchglow Travels Nigeria Limited is a leading travel management company based in Nigeria with
+                    8 offices across Lagos, Abuja and Port Harcourt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h-[auto] p-2  transform transition-all hover:-translate-y-2 duration-300 ">
+            <div>
+              <div data-aos="fade-up" data-aos-duration="3000" class=" flex flex-col sm:items-end">
+                <div class="mt-8 text-[#98A2B3]">
+                  <span>© 
+                    <script>
+                      document.write(new Date().getFullYear())
+                    </script> Finchglow Travels. All rights reserved.
+                  </span>
+                </div>
+                <div class="text-left pt-5 transform">
+                  <ul class="sm:flex transform gap-[10px] pb-4">
+                    <li>
+                      <a href="https://www.facebook.com/groups/finchpartnerplus"><img class="transition-all hover:-translate-y-2 duration-300  hover:shadow-2xl" src="images/icons/ri_facebook-fill.png" alt="" /></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/finchglow"><img class="transition-all hover:-translate-y-2 duration-300  hover:shadow-2xl" src="images/icons/ri_twitter-fill.png" alt="" /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/5302253"><img class="transition-all hover:-translate-y-2 duration-300  hover:shadow-2xl" src="images/icons/ri_linkedin-fill.png" alt="" /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/finchglow/"><img class="transition-all hover:-translate-y-2 duration-300  hover:shadow-2xl" src="images/icons/ri_instagram-fill (1).png" alt="" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100'),list.classList.add('bee')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('bee'),list.classList.remove('opacity-100'))
+    }
+  </script>
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript">var zf_DateRegex = new RegExp("^(([0][1-9])|([1-2][0-9])|([3][0-1]))[-](Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[-](?:(?:19|20)[0-9]{2})$");
+    var zf_MandArray = ["PhoneNumber_countrycode", "PhoneNumber_countrycodeVal"];
+    var zf_FieldArray = ["Name_First", "Name_Last", "Email", "PhoneNumber_countrycode", "PhoneNumber_countrycodeVal", "Dropdown", "Dropdown1", "MultiLine", "DecisionBox"];
+    var isSalesIQIntegrationEnabled = false;
+    var salesIQFieldsArray = [];</script>
+
+  <script type="text/javascript">var zf_DateRegex = new RegExp("^(([0][1-9])|([1-2][0-9])|([3][0-1]))[-](Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[-](?:(?:19|20)[0-9]{2})$");
+    var zf_MandArray = ["PhoneNumber_countrycode", "PhoneNumber_countrycodeVal"];
+    var zf_FieldArray = ["Name_First", "Name_Last", "Email", "PhoneNumber_countrycode", "PhoneNumber_countrycodeVal", "Dropdown", "Dropdown1", "MultiLine", "DecisionBox"];
+    var isSalesIQIntegrationEnabled = false;
+    var salesIQFieldsArray = [];</script>
+</body>
+
+</html>
