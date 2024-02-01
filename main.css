@@ -981,10 +981,6 @@ video {
   width: 291px;
 }
 
-.w-\[509px\] {
-  width: 509px;
-}
-
 .w-\[77\.335px\] {
   width: 77.335px;
 }
@@ -3499,6 +3495,10 @@ ion-icon {
 
   .sm\:w-\[447px\] {
     width: 447px;
+  }
+
+  .sm\:w-\[509px\] {
+    width: 509px;
   }
 
   .sm\:w-\[582px\] {
